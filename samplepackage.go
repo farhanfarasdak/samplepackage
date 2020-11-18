@@ -12,3 +12,11 @@ type Connection struct {
 func (c *Connection) SetConnection() {
 	fmt.Println("yoooo")
 }
+
+func New() *Connection {
+	fmt.Println("ntaaap")
+	return &Connection {
+		Host: "BIBI"
+		Port: "BUBU"
+	}
+}
