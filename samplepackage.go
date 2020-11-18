@@ -16,7 +16,7 @@ func (c *Connection) SetConnection() {
 func New() *Connection {
 	fmt.Println("ntaaap")
 	return &Connection {
-		Host: "BIBI"
-		Port: "BUBU"
+		Host: "BIBI",
+		Port: "BUBU",
 	}
 }
